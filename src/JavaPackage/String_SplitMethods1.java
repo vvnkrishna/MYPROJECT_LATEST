@@ -17,7 +17,8 @@ public class String_SplitMethods1 {
 
 		//1st method
 		String st[] = s.split("@");
-		printstringmethod(st,"Spliiting class split method");
+		printstringmethod(st,"split method");
+		
 		  
 		//2nd method 
 		List<Object> stlt =  Pattern.compile("@").splitAsStream(s).collect(Collectors.toList());
@@ -37,7 +38,7 @@ public class String_SplitMethods1 {
 
 		// 4th Method
 		String splitarr[] = StringUtils.split(s, "@");
-		printstringmethod(splitarr, "splitting StringUtils method");
+		printstringmethod(splitarr,"String utility method");
 		
 
 		// 5th method
@@ -48,11 +49,12 @@ public class String_SplitMethods1 {
 
 		}
 
-	public static void printstringmethod(String arr[], String approach) {
+	public static void printstringmethod(String arr[],String approach) {
 
 		System.out.println("Splitting string by using :" + approach);
 		for (String stirng : arr) {
 			System.out.println(stirng);
+			
 
 		}
 
