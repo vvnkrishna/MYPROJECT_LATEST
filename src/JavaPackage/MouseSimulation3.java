@@ -44,8 +44,14 @@ public class MouseSimulation3 {
 
 	
 	 // Mouse scroll( horizontally,vertically)
+<<<<<<< HEAD
 	 // (JavascriptExecutor)driver.executescript("scroll(0,400)"):
 	 
 	}	
+=======
+	  (JavascriptExecutor)driver.executescript("scroll(0,400)"):
+	 
+		
+>>>>>>> bfddf0468e131bde54a346abef92671f1a75108e
 	
 }

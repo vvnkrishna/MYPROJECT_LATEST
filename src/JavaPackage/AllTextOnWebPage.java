@@ -22,16 +22,23 @@ public class AllTextOnWebPage {
 		
 		List<WebElement> text = driver.findElements(By.xpath("*"));
 		
+<<<<<<< HEAD
 		String st = text.get(0).getText();
 		System.out.println(st);
 		
+=======
+>>>>>>> bfddf0468e131bde54a346abef92671f1a75108e
 	//String j  =	Integer.toString(text.size());
 	
 
 	
 	//System.out.println("string size is :"+ j);
 		
+<<<<<<< HEAD
 		/*int count = text.size();
+=======
+		int count = text.size();
+>>>>>>> bfddf0468e131bde54a346abef92671f1a75108e
 		
 		System.out.println(count);
 		
@@ -40,7 +47,11 @@ public class AllTextOnWebPage {
 		String s =	text.get(i).getText();
 		
 		System.out.println(s);
+<<<<<<< HEAD
 			*/
+=======
+			
+>>>>>>> bfddf0468e131bde54a346abef92671f1a75108e
 			
 		}
 		
@@ -52,4 +63,8 @@ public class AllTextOnWebPage {
 		
 	}
 
+<<<<<<< HEAD
 
+=======
+}
+>>>>>>> bfddf0468e131bde54a346abef92671f1a75108e

@@ -41,7 +41,11 @@ public class MandatoryFields {
 		  
 		  
 		  
+<<<<<<< HEAD
 		  System.out.println();
+=======
+		  System.out.println(abcd);
+>>>>>>> bfddf0468e131bde54a346abef92671f1a75108e
 		 
 		 
 		

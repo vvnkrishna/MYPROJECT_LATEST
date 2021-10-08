@@ -81,6 +81,7 @@ public class IsValidNumber {
 	public static void main(String[] args) {
 
 		
+<<<<<<< HEAD
 		//  System.out.println(iscorrectCellNumber("1234567890"));
 		//  System.out.println(iscorrectCellNumber("-9987.1230"));
 		  
@@ -88,6 +89,15 @@ public class IsValidNumber {
 		 // System.out.println(iscorrectMobNumber("-9987.1230"));
 		 
 		 System.out.println(isCorrectphnumber("1234567890"));
+=======
+		  System.out.println(iscorrectCellNumber("-2345.7890"));
+		  System.out.println(iscorrectCellNumber("-9987.1230"));
+		  
+		  System.out.println(iscorrectMobNumber("abcdefghij"));
+		  System.out.println(iscorrectMobNumber("-9987.1230"));
+		 
+		// System.out.println(isCorrectphnumber("abcdefghij"));
+>>>>>>> bfddf0468e131bde54a346abef92671f1a75108e
 		//System.out.println(isCorrectphnumber("-9987.1230"));
 
 		//System.out.println(IsValidCCNUmber("abcdefghij"));

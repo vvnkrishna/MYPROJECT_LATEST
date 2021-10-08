@@ -1,6 +1,9 @@
 package JavaPackage;
 
+<<<<<<< HEAD
 import java.util.List;
+=======
+>>>>>>> bfddf0468e131bde54a346abef92671f1a75108e
 import java.util.Set;
 
 import org.openqa.selenium.WebDriver;
@@ -19,7 +22,11 @@ public class PopupHandling2 {
         String mainwindow = driver.getWindowHandle();
         System.out.println("This is mainwindow:" + mainwindow);
            
+<<<<<<< HEAD
         Set<String> all =  driver.getWindowHandles();
+=======
+        Set<String> all = driver.getWindowHandles();
+>>>>>>> bfddf0468e131bde54a346abef92671f1a75108e
         
         for(String one: all) {
         	
