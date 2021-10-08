@@ -34,6 +34,7 @@ public class DropDown2 {
 		Select DaysBox = new Select(days);
 
 		DaysBox.selectByValue("25");// 25
+		
 
 		Thread.sleep(3000);
 		DaysBox.selectByIndex(15);// 15

@@ -28,7 +28,7 @@ public class PopHandling1 {
 		String mainwindow = Ittt.next();
 		String pop1 = Ittt.next();
 		String pop2 = Ittt.next();
-		String pop3 = Ittt.next();
+		//String pop3 = Ittt.next();
 		
 		//Here we switch to window,get id, get title and close the window		
 		Thread.sleep(3000);
@@ -48,8 +48,8 @@ public class PopHandling1 {
 		
 		//Here we switch to window,get id, get title and close the window	
 		Thread.sleep(3000);
-		driver.switchTo().window(pop3);
-		System.out.println(pop3);
+		driver.switchTo().window(pop2);
+		System.out.println(pop2);
 		System.out.println(driver.getTitle());
 		Thread.sleep(3000);
 		driver.close();

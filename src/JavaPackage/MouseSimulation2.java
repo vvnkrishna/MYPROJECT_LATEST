@@ -27,15 +27,15 @@ public class MouseSimulation2 {
 		System.out.println("Total number of frames : " + AllFrames.size());
 		driver.switchTo().frame(0);
 
-		//Drag and droppable Webelement
+		// Drag and droppable Webelement
 		WebElement source = driver.findElement(By.xpath("//*[@id='draggable']"));
 		WebElement destination = driver.findElement(By.xpath("//*[@id='droppable']"));
 
-		//Using Actions Class
+		// Using Actions Class
 		Thread.sleep(3000);
 		Actions act = new Actions(driver);
 		act.dragAndDrop(source, destination).build().perform();
-
+		//act.dragAndDropBy(source, 10, 10).build().perform();
 	}
 
 }

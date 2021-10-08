@@ -1,7 +1,7 @@
 package JavaPackage;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class OpenBrowser1 {
 
@@ -9,7 +9,7 @@ public class OpenBrowser1 {
 		
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Christy\\eclipse-workspace\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+		RemoteWebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
 

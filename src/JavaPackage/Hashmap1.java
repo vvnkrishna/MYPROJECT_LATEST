@@ -19,6 +19,11 @@ public class Hashmap1 {
 	System.out.println(hm);
 	
 	
+
+	
+
+	
+	
 	}
 
 }

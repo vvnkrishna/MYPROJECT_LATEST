@@ -40,12 +40,12 @@ public class MouseSimulation3 {
 		act.clickAndHold(source).dragAndDropBy(source, 10, 10).build().perform();
 
 		
-	}
+	
 
-	/*
-	 * Mouse scroll( horizontally,vertically)
-	 * (JavascriptExecutor)driver.executescript("scroll(0,400)"):
-	 */
-		
+	
+	 // Mouse scroll( horizontally,vertically)
+	 // (JavascriptExecutor)driver.executescript("scroll(0,400)"):
+	 
+	}	
 	
 }

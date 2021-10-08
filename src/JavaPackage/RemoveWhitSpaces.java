@@ -19,8 +19,8 @@ public class RemoveWhitSpaces {
 				     + "\n core java tutorials    "
 				     + "\t Sprng boot course  ";
 		
-		System.out.println(xyz);
-		System.out.println(xyz.length());
+		//System.out.println(xyz);
+		//System.out.println(xyz.length());
 		
 		String nowhitespaces = "";
 		
